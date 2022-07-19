@@ -16,11 +16,11 @@ public class AverageGradeMichaelAdams {
         do {
 
             // Ask and receive class size
-            System.out.println("Class size:\t\t\t\t");
+            System.out.println("Class size:\t\t");
             int classSize = input.nextInt();
 
             // Ask and receive grades
-            System.out.println("Entered grades:\t\t\t");
+            System.out.println("Entered grades:\t\t");
 
             double[] grades = new double[classSize];
             // Loop for grades; only receive the number of grades per class size
@@ -32,7 +32,7 @@ public class AverageGradeMichaelAdams {
             Double average = findAverage(grades);
 
             // Print average grade
-            System.out.println("Class average:\t\t\t" + String.format("%,.1f",average));
+            System.out.println("Class average:\t\t" + String.format("%,.1f",average));
 
 
             // Ask user if they want to enter more grades
